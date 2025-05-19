@@ -154,12 +154,16 @@ dependencies:
   - zipp=3.21.0=pyhd8ed1ab_1
   - zlib=1.2.13=h4ab18f5_6
   - pip:
+      - datasets==3.6.0
+      - dill==0.3.8
       - filelock==3.18.0
       - huggingface-hub==0.31.2
       - jax==0.4.30
       - jaxlib==0.4.30
       - libclang==18.1.1
       - ml-dtypes==0.5.1
+      - multiprocess==0.70.16
+      - pytz==2025.2
       - pyyaml==6.0.2
       - regex==2024.11.6
       - safetensors==0.5.3
@@ -167,4 +171,5 @@ dependencies:
       - tokenizers==0.13.3
       - transformers==4.33.3
       - wrapt==1.14.1
+      - xxhash==3.5.0
 prefix: /home/brook/anaconda3/envs/conda_env
